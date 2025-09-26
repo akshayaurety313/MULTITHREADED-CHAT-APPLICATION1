@@ -1,57 +1,85 @@
-![](https://img.shields.io/github/last-commit/restfb/restfb?style=for-the-badge)
-![](https://img.shields.io/github/actions/workflow/status/restfb/restfb/sonar.yml?style=for-the-badge)
+COMPANY:CODTECH IT SOLUTIONS
 
-# RestFB (http://restfb.com)
-## What it is
+NAME: URETY AKSHAYA
 
-RestFB is a pure Java Facebook Graph API client with no external dependencies.
+INTERN ID:CT04DY1324
 
-It was created by [Mark Allen](http://revetkn.com) and is maintained by [Norbert Bartels](https://www.phpmonkeys.de/) along with a worldwide team of contributors.
+DOMAIN:JAVA PROGRAMMING
 
-## Licensing
+DURATION:4 WEEKS
 
-RestFB uses other open-source software - see the `LICENSE.*.txt` files. 
-RestFB itself is open source software released under the terms of the MIT License.
+MENTOR:NEELA SANTOSH
 
-## Installation
+Introduction
 
-RestFB is a single JAR - just drop it into your app and you're ready to go. Download it from Maven Central:
+A Multithreaded Chat Application is a network-based software system designed to allow multiple users to communicate with each other simultaneously. Unlike single-threaded applications, where only one request can be handled at a time, a multithreaded approach enables the server to manage multiple clients concurrently by creating a separate thread for each user connection. This ensures faster communication, real-time message delivery, and efficient utilization of system resources.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.restfb/restfb.svg?label=Latest%20Release&style=for-the-badge)](https://mvnrepository.com/artifact/com.restfb/restfb)
+The application typically follows a client-server architecture, where:
 
-## Building it Yourself
+The server runs continuously, listens for incoming client requests, and assigns a dedicated thread to handle each client.
 
-Just type
+The clients can connect to the server, send messages, and receive responses in real time.
 
-    mvn package
-    
-and the jars will be built and can be found in the `target` folder. 
+This project demonstrates key concepts of socket programming, multithreading, and concurrent communication in computer networks. It provides a practical foundation for real-world applications such as chat rooms, instant messaging services, and collaborative platforms.
 
-## Usage and examples
+Objectives
 
-We provide well-curated [documentation](https://restfb.com/documentation/) with many code examples. These 
-are all clearly commented and give a good overview of the functionality RestFB provides.
+Enable real-time communication between multiple users.
 
-Additionally, you can take a look at the integration tests [here](https://github.com/restfb/restfb/tree/master/src/test/java/com/restfb/integration) on GitHub. Some interesting use cases are exercised there and you can get a good idea of the different features that are provided by RestFB.
+Demonstrate multithreading in network programming.
 
-There is also the [example project](https://github.com/restfb/restfb-examples) on GitHub. It contains a suite of tools that can be triggered via Maven calls. Additionally, for the fetching and publishing example, you can find
-a JavaFX code sample, that shows how you can use an embedded browser to fetch a user access token.
+Implement a client-server model for chat systems.
 
-## Sponsors and Backers
+Provide a scalable base for advanced messaging applications.
 
-You like RestFB and you like to support the development, but you cannot contribute any code? Then we have good news for 
-you. We added the *sponsor* button to this repository, and you can join the list of sponsors with a simple click.
+⚡ Features
 
-Please check the different tiers. We have a suitable for everyone. Depending on the tier, you even get a place 
-on the official [RestFB](https://restfb.com) website with your name, company logo, link and more. 
+Multi-user chat support (concurrent clients).
 
-## Getting in touch
+Real-time message broadcasting.
 
-Facebook has suspended the RestFB page without providing any clear or understandable reason for the action.
-Therefore we cannot provide support via Facebook anymore - sounds strange, but it is what it is.
+Thread-based client handling.
 
-* **[GitHub Issues](https://github.com/restfb/restfb/issues/new)**: If you have ideas, bugs, or problems with RestFB, just open a new issue.
-* **[Bluesky](https://bsky.app/profile/restfb.com)**: You can follow us on BlueSky to get the latest updates.
-* **[LinkedIn](https://www.linkedin.com/company/restfb/)**: You can get in touch with us here and get the latest updates:
-* **[Stackoverflow](https://stackoverflow.com/questions/tagged/restfb)**: Questions about RestFB are answered on Stackoverflow. We'll help you there, too.
-* **[Google Groups](http://groups.google.com/group/restfb)**: If you'd like to talk to other RestFB users, just send a message to our Google Group!
+Lightweight and platform-independent.
+
+Can be extended with private chats, file sharing, GUI, etc.
+
+🛠️ Applications
+
+This project has applications in various domains, such as:
+
+Educational Projects – Learning socket programming, concurrency, and client-server models.
+
+Real-time Communication – Basis for messaging apps like WhatsApp, Slack, or IRC.
+
+Collaborative Platforms – Group discussions, study rooms, or remote team collaboration.
+
+Customer Support Systems – Live chat functionality for websites and businesses.
+
+Gaming Applications – In-game chatrooms for multiplayer environments.
+
+IoT and Remote Systems – Device-to-device communication and monitoring.
+
+💻 Platforms & Technologies
+
+The application is cross-platform and can be run on:
+
+Operating Systems: Windows, Linux, macOS
+
+Programming Languages: Java / Python / C++ (depending on your implementation)
+
+Tools & Editors:
+
+Java: Eclipse, IntelliJ IDEA, NetBeans
+
+Python: PyCharm, VS Code, IDLE
+
+C++: Code::Blocks, CLion, Visual Studio
+
+Libraries Used:
+
+Java: java.net, java.io, java.util.concurrent
+
+Python: socket, threading
+
+C++: <sys/socket.h>, <thread>
