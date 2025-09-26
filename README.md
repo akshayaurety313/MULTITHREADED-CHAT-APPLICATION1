@@ -87,4 +87,4 @@ C++: <sys/socket.h>, <thread>
 
 
 output:
-https://github.com/user-attachments/assets/6dca6106-55c4-4c0f-a2f5-333c21fe1e5d
+![Image](https://github.com/user-attachments/assets/094045a9-0938-475a-9340-c56f4648218b)
