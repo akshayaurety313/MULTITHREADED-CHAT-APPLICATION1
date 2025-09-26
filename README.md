@@ -83,3 +83,8 @@ Java: java.net, java.io, java.util.concurrent
 Python: socket, threading
 
 C++: <sys/socket.h>, <thread>
+
+
+
+output:
+https://github.com/user-attachments/assets/6dca6106-55c4-4c0f-a2f5-333c21fe1e5d
